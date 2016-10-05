@@ -1,5 +1,6 @@
 {
   "name": "mobx-react-router",
+  "version": "4.0.0",
   "description": "Keep your MobX state in sync with react-router",
   "main": "dist/mobx-react-router.js",
   "scripts": {
@@ -17,6 +18,12 @@
     "testPathDirs": [
       "__test__"
     ]
+  },
+  "publishConfig": {
+    "tag": "v4"
+  },
+  "release": {
+    "branch": "master"
   },
   "repository": {
     "type": "git",
